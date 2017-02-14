@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Git Fetcher</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assest/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="gitFetcher.css">
+</head>
+<body>
+
+<div class="container">
+	<div class="header-wrapper">
+		<h1> Git Fetcher </h1>
+		<p>Give me your username, I'll give you your details</p>
+	</div> 
+
+	<div class="row">
+		<form class="form" id="formToSerialize">
+			<label for="username">Username</label>
+			<input id="username" name="username" type="text"/>
+		</form>
+	</div>
+
+	<div class="row">
+		<button class="btn btn-success" id="get-data">Show Me Everything</button>
+	</div>
+
+	<div class="row">
+		<img class="col-md-12" id="user-image" src="">
+	</div>
+	<div class="row">
+		<h2 class="col-md-12" id="user-name"></h2>
+	</div>
+	<div class="row">
+		<h2 class="col-md-12" id="user-company"></h2>
+	</div>
+	<div class="row">
+		<h2 class="col-md-12" id="user-email"></h2>
+	</div>
+	<div class="row">
+		<h2 class="col-md-12" id="user-created-at"></h2>
+	</div>
+	<div class="row">
+		<h2 class="col-md-12" id="user-location"></h2>
+	</div>
+	<div class="row">
+		<h2 class="col-md-12" id="user-url"></h2>
+	</div>
+</div>
+
+<!--
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+-->
+<script type="text/javascript" src="assest/jquery.min.js"></script>
+<script type="text/javascript" src="assest/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assest/ajaxstart.js"></script>
+</body>
+</html>
